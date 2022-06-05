@@ -1,0 +1,77 @@
+.LibrosdeElectricidad{
+    margin: 10px;
+    background: linear-gradient(to top, rgb(108, 108, 233),rgb(109, 202, 233) );
+    flex-wrap: wrap;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    justify-content: center;
+    width: 90%;
+    font-size: 35px;
+}
+.He{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+h5{
+    margin: 1px;
+    font-size: 1em;
+}
+
+.lb1, .lb2, .lb3, .lb4, .lb5 {
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+}
+
+.aa, .ab, .ac, .ad, .ae {
+    background: white;
+    border-radius: 20px;
+    margin: 10px;
+    width: 350px;
+    height: 410px;
+}
+
+.julio {
+    color: red;
+    list-style: none;
+}
+
+.ac{
+    color: blue;
+}
+
+.lb1{
+    background-image: url(./imageneselectricidad/uuno.jpg);
+}
+.lb2{
+
+    background-image: url(./imageneselectricidad/ddos.jpg);
+}
+.lb3{
+    background-image: url(./imageneselectricidad/ttres.jpg);
+}
+.lb4{
+    background-image: url(./imageneselectricidad/ccuatro.png); 
+}
+.lb5{
+    background-image: url(./imageneselectricidad/ccinco.jpg);
+}
+@media only screen and (max-width: 750px) {
+
+    .LibrosdeElectricidad{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 350px) {
+
+    .LibrosdeElectricidad{
+        font-size: 20px;
+    }
+}

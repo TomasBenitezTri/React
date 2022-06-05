@@ -1,0 +1,44 @@
+
+.Head{
+    font-family: 'fuente2';
+    font-size: 70px;
+    color: #00ff62 ;
+    text-shadow: -2px 2px 2px blue;
+    -webkit-text-stroke: 1px black;
+    background-image: url(./images/libros.jpg);
+    background-size: 30%;
+    font-weight: 900;
+    background-position: center;
+    border-radius: 10px;
+}
+.carritodecompras{
+    box-shadow: -3px 3px 3px;
+    background: #00ff62;
+    color:blue;
+    margin: 10px;
+}
+
+.carrito:hover{
+    text-shadow: -3px 3px 1px #00ff62;
+}
+
+.carrito{
+    font-family: 'fuente1';
+    color: #fffe00;
+    text-shadow: -2px 3px 2px rgb(126, 4, 4);
+    padding-right: 10px;
+    margin: 0px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+@media only screen and (max-width: 350px) {
+    .Head{
+        font-size: 55px;
+        width: 300px;
+        margin-left: 10px;
+    }
+    .carrito{
+        font-size: 15px;
+    }
+}

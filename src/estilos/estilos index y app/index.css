@@ -1,0 +1,14 @@
+@font-face{
+	font-family: "fuente1";
+	src: url(./fuentes/Dosis.ttf);
+}
+@font-face{
+	font-family: "fuente2";
+	src: url(./fuentes/Dosis-ExtraBold.ttf);
+}
+body {
+  text-align: center;
+  background: lightblue;
+  font-family: 'fuente1';
+  
+}

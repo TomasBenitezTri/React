@@ -1,0 +1,23 @@
+.lib1, .lib2, .lib3, .lib4, .lib5 {
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+}
+.lib1{
+    background-image: url(./imagenesmecanica/uno.jpg);
+}
+.lib2{
+
+    background-image: url(./imagenesmecanica/dos.jpg);
+}
+.lib3{
+    background-image: url(./imagenesmecanica/tres.jpg);
+}
+.lib4{
+    background-image: url(./imagenesmecanica/cuatro.png); 
+}
+.lib5{
+    background-image: url(./imagenesmecanica/cinco.jpg);
+}

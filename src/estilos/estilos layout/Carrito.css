@@ -1,0 +1,31 @@
+.carritodecompras{
+    max-width: 200px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: solid black 0.5px;
+    color: rgb(0, 0, 128);
+    background: rgb(148, 253, 148);
+}
+.carritodecompras:hover{
+    background: yellow;
+    border: solid rgb(148, 253, 148) 0.5px;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cajadecajaindividual{
+    display: flex;
+    justify-content: center;
+}
+
+.cajaindividual{
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+    margin: 5px;
+    border: solid 0.5px rgb(55, 0, 255);
+}

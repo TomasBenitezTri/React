@@ -1,0 +1,50 @@
+.cajanav{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1em;
+    text-decoration: none;
+    margin: 10px 0px;
+   
+} 
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+ul {padding: 0;}
+
+.cajanav li {
+    display: flex;
+    list-style-type: none;
+    border-radius: 7px;
+    background: linear-gradient(to top, #00ff62,lightblue );
+    text-shadow: -1px 0px 0px blue;
+    padding: 10px 45px ;
+    margin: 5px;
+    list-style: none;
+    
+}
+.cajanav li:hover{
+    background: linear-gradient(to top, yellow ,lightblue );
+}
+@media only screen and (max-width: 379px) {
+    .cajanav{
+        font-size: 0.95em;
+    }
+    .cajahome{
+        width: 100%;
+        justify-content: center;
+    }
+    .cajanav li{ 
+        margin: 2px;
+        padding: 5px 10px
+    }
+}
+@media only screen and (max-width: 335px) {
+    .nav {
+        width:300px;
+        margin-left: 10px;
+        font-size: 0.9em;
+    }
+}

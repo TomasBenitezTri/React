@@ -1,0 +1,217 @@
+.pulsar{
+    color: rgb(255, 0, 0);
+}
+
+.novedades {
+    padding: 20px;
+    width: 50%;
+    border-radius: 20px;
+    background: white ;
+    margin: 10px;
+}
+
+.novedades h1 {
+    font-size: 40px;
+}
+
+.novedades h2 {
+    color: rgb(54, 159, 194);
+    font-size: 30px;
+}
+
+.novedades img {
+    width: 50%;
+    
+}
+
+h4{
+    margin: 0px;
+}
+.caja6{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 50px;
+    border: solid blue 1px;
+    border-radius: 20px;
+}
+.caja7{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.PropsClase{
+    margin:10px;
+}
+h6{
+    margin: 1px;
+}
+.login{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    color: rgb(3, 3, 110);
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 35px;
+    width: 200px;
+    background: #00ff62;
+}
+.NovedadesHome{
+    margin: 10px;
+    background: linear-gradient(to top, rgb(108, 108, 233),rgb(109, 202, 233) );
+    flex-wrap: wrap;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    justify-content: center;
+    width: 90%;
+    font-size: 35px;
+}
+.CajaGeneralCongelarIdea{
+    display: flex;
+    justify-content: center;
+}
+.CajaCongelarIdea{
+    background: linear-gradient(to top, rgb(108, 108, 233),rgb(109, 202, 233) );
+    flex-wrap: wrap;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    justify-content: center;
+    width: 90%;
+}
+.cajaprincipal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+.cajadecajas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+} 
+
+.caja1{
+    background: linear-gradient(to top, #00ff62,rgb(106, 209, 243) );
+    font-size: 30px;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 15px;
+    width: 88%;
+}
+.caja2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.caja4{
+    padding: 10px;
+    margin-top: 50px;
+    border: solid blue 1px;
+    border-radius: 20px;
+}
+
+.Fav{
+    margin-top: 5px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    background: rgb(146, 146, 235);
+    padding: 15px;
+}
+
+.envio{
+    color: rgb(3, 3, 110);
+    border-radius: 10px;
+    font-size: 20px;
+    height: 40px;
+    width: 200px;
+    background: #00ff62;
+}
+
+.envio:hover{
+    background: yellow;
+}
+
+.envio2{
+    color: rgb(3, 3, 110);
+    border-radius: 10px;
+    font-size: 20px;
+    height: 40px;
+    background: #00ff62;
+}
+
+.envio2:hover{
+    background: yellow;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0px 35px 10px 10px; 
+
+}
+.boton{
+    margin: auto;
+}
+
+.consulta{
+    width: 200px;
+    padding: 5px;
+    margin: 3px;
+    font-family: 'fuente1';
+    border-radius: 10px;
+    resize: none;
+}
+.consulta2{
+    margin-bottom: 10px;
+    resize: none;
+}
+
+.libro1, .libro2, .libro3, .libro4, .libro5 {
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+}
+
+.libro1{
+    background-image: url(./imageshome/TapaMecatronica.png);
+}
+.libro2{
+
+    background-image: url(./imageshome/arduino.jpg);
+}
+.libro3{
+    background-image: url(./imageshome/mec.jpg);
+}
+.libro4{
+    background-image: url(./imageshome/Pre.jpg); 
+}
+.libro5{
+    background-image: url(./imageshome/red.jpg);
+}
+@media only screen and (max-width: 379px) {
+    .cajaprincipal{
+        font-size: 0.7em;
+    }
+    .CajaCongelarIdea{ height: 110px;}
+}
+@media only screen and (max-width: 750px) {
+    .caja4{
+        font-size: 20px;
+    }
+    .CajaCongelarIdea, .caja1{
+        height: 160px;
+        width: 90%;
+    }
+}

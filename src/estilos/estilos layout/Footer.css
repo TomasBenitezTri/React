@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-size: 20px;
+    border: solid blue 1px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 379px) {
+    .footer{
+        font-size: 0.7em;
+    }
+}
+@media only screen and (max-width: 340px) {
+    .footer{
+        margin-left: 7px;
+        width: 300px;
+    }
+}
