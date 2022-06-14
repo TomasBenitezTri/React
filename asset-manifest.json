@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/React/static/css/main.63df5cf5.css",
+    "main.js": "/React/static/js/main.2983d8f8.js",
+    "static/media/libros.jpg": "/React/static/media/libros.10a3c3b4352b66354e0a.jpg",
+    "static/media/cuatro.png": "/React/static/media/cuatro.c3b947e706c068ab3d19.png",
+    "static/media/ccuatro.png": "/React/static/media/ccuatro.ca5858863357367cc2ee.png",
+    "static/media/Pre.jpg": "/React/static/media/Pre.af5509f92764f3a6f58d.jpg",
+    "static/media/dos.jpg": "/React/static/media/dos.c9f6f90310d6fed679a2.jpg",
+    "static/media/red.jpg": "/React/static/media/red.e805d808dc01e2cc89b2.jpg",
+    "static/media/mec.jpg": "/React/static/media/mec.35a1d7c5b1d9a8ec7053.jpg",
+    "static/media/Dosis.ttf": "/React/static/media/Dosis.63a1f7c5a678ba3de0d3.ttf",
+    "static/media/Dosis-ExtraBold.ttf": "/React/static/media/Dosis-ExtraBold.78617bd32827d2cdcd98.ttf",
+    "static/media/TapaMecatronica.png": "/React/static/media/TapaMecatronica.db7c922fb67619a0e68d.png",
+    "static/media/cincoo.jpg": "/React/static/media/cincoo.7872f02858ee9c327b9a.jpg",
+    "static/media/uno.jpg": "/React/static/media/uno.ddbc4378ebe240d16c4c.jpg",
+    "static/media/tress.jpg": "/React/static/media/tress.cec2959dba83d493b369.jpg",
+    "static/media/uuno.jpg": "/React/static/media/uuno.92507b2d2c868b9cb933.jpg",
+    "static/media/ccinco.jpg": "/React/static/media/ccinco.08524367cb382fc55900.jpg",
+    "static/media/cinco.jpg": "/React/static/media/cinco.c3276316aa337ecf8d67.jpg",
+    "static/media/arduino.jpg": "/React/static/media/arduino.9ce5b8fb5b0888745e1d.jpg",
+    "static/media/cuatroo.jpg": "/React/static/media/cuatroo.69f2ee5d9170e0a01339.jpg",
+    "static/media/ttres.jpg": "/React/static/media/ttres.30991bcc8107b655c39e.jpg",
+    "static/media/unoo.jpg": "/React/static/media/unoo.3597b042aff2bdae0d94.jpg",
+    "static/media/ddos.jpg": "/React/static/media/ddos.81e633d98e657b7f9708.jpg",
+    "static/media/tres.jpg": "/React/static/media/tres.daf46ecd68c4b8ac266a.jpg",
+    "static/media/doss.jpg": "/React/static/media/doss.36a301396eada3364979.jpg",
+    "index.html": "/React/index.html",
+    "main.63df5cf5.css.map": "/React/static/css/main.63df5cf5.css.map",
+    "main.2983d8f8.js.map": "/React/static/js/main.2983d8f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63df5cf5.css",
+    "static/js/main.2983d8f8.js"
+  ]
+}
