@@ -87,7 +87,7 @@ const HomePagina = (props) => {
 
         <section className="He">
         {loading?(
-          <p>Cargando ...</p>
+          <p></p>
          ) : (
             novedades.map(item => <NovedadItem key={item.id}
                 title={item.titulo} 
@@ -165,7 +165,7 @@ export const Mailer = () => {
     )
 }
 
-
+/*
 const ContactoPage = (props) => {
     const initialForm = {
           nombre: '',
@@ -229,7 +229,7 @@ const ContactoPage = (props) => {
         </p>
         </div>
     </main>
-)}
+)*/
 
 function VistaConsola(props){
     
@@ -240,12 +240,12 @@ function VistaConsola(props){
         onClick={()=> console.log('Has enviado tu consulta con éxito!!!')}>
         Console.log
         </button>
-        <h6>Comprobar en consola</h6> */}
+        <h6>Comprobar en consola</h6> */ }
         </div>
        
-    )
+    ) 
 }  
 
 
 
-export {HomePagina,LibroEnMente, VistaConsola, ContactoPage}
+export {HomePagina,LibroEnMente, VistaConsola, /*ContactoPage*/}

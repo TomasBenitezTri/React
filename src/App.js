@@ -1,6 +1,6 @@
 import './estilos/estilos index y app/App.css';
 import {React} from 'react';
-import { LibroEnMente, VistaConsola, Mailer, ContactoPage} from './paginas/HomePagina';
+import { LibroEnMente, VistaConsola, Mailer, /*ContactoPage*/} from './paginas/HomePagina';
 
 
 
@@ -28,7 +28,7 @@ function App() {
         <Route path='/favoritos' element = {<Favoritos/>} />
       </Routes>
         <Routes>
-          <Route path='/' element = {<HomePagina/>} />
+          <Route path='/React' element = {<HomePagina/>} />
           <Route path='/electricidad' element = {<ElectricidadPagina/>}/>
           <Route path='/mecanica' element = {<MecanicaPagina/>}/>
           <Route path='/electronica' element = {<ElectronicaPagina/>}/>
@@ -37,7 +37,7 @@ function App() {
         <Route path='/' element = {<VistaConsola/>} />
       </Routes>
       <Mailer/>
-      <ContactoPage/>
+      {/*<ContactoPage/>*/}
       <Footer />
       </Router>
 
