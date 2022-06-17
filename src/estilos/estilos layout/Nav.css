@@ -28,20 +28,38 @@ ul {padding: 0;}
 .cajanav li:hover{
     background: linear-gradient(to top, yellow ,lightblue );
 }
-@media only screen and (max-width: 379px) {
+
+@media only screen and (max-width: 750px) {
+    .cajanav{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .cajanav li{
+        display: flex;
+        justify-content: center;
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
     .cajanav{
         font-size: 0.95em;
     }
-    .cajahome{
-        width: 100%;
+    .cajanav li{
+        display: flex;
         justify-content: center;
+        width: 20%;
     }
-    .cajanav li{ 
-        margin: 2px;
-        padding: 5px 10px
-    }
+
 }
-@media only screen and (max-width: 335px) {
+@media only screen and (max-width: 350px) {
+    .cajanav li{
+        display: flex;
+        justify-content: center;
+        width: 15%;
+    }
+    
     .nav {
         width:300px;
         margin-left: 10px;

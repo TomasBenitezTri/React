@@ -84,13 +84,10 @@ h6{
     align-items: center;
     height: 70px;
     justify-content: center;
-    width: 90%;
 }
 .cajaprincipal {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
 }
 .cajadecajas{
     display: flex;
@@ -203,15 +200,19 @@ h6{
 @media only screen and (max-width: 379px) {
     .cajaprincipal{
         font-size: 0.7em;
+        padding-right: 5px ;
     }
-    .CajaCongelarIdea{ height: 110px;}
 }
 @media only screen and (max-width: 750px) {
+    
     .caja4{
         font-size: 20px;
     }
-    .CajaCongelarIdea, .caja1{
+    .CajaCongelarIdea{
         height: 160px;
-        width: 90%;
+        
+    }
+    .caja1 {
+        font-size: 15px;
     }
 }

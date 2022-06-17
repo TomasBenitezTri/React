@@ -75,12 +75,12 @@ const HomePagina = (props) => {
             libros técnicos de calidad internacional. 
         </div>
 
-        <div className="Fav">
+        {/*<div className="Fav">
         <NavLink to='/favoritos' 
         style={{ textDecoration: 'none', color: 'Red'}}>
         Libros Favoritos ♡
         </NavLink>
-        </div>
+        </div>*/}
 
         <div className="He">
         <div className="NovedadesHome">Novedades</div>

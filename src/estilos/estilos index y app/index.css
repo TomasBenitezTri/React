@@ -10,5 +10,7 @@ body {
   text-align: center;
   background: lightblue;
   font-family: 'fuente1';
-  
+}
+.root{
+	display: flex;
 }
