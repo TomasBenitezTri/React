@@ -29,7 +29,7 @@ function App() {
       </Routes>
         <Routes>
           <Route path='/React' element = {<HomePagina/>} />
-          <Route path='/electricidad' element = {<ElectricidadPagina/>}/>
+          <Route path='/React/electricidad' element = {<ElectricidadPagina/>}/>
           <Route path='/mecanica' element = {<MecanicaPagina/>}/>
           <Route path='/electronica' element = {<ElectronicaPagina/>}/>
       </Routes>
