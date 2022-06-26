@@ -6,9 +6,17 @@ const Footer = (props) =>{
         <div className='footer'>
             <div>
             Design by: Tomas Benitez - 2022 
+            
             <div> 
-            <a href= 'https://www.instagram.com/tomas.benitez13/' style={{ textDecoration: 'none', color: 'blue'}} target = '_BLANK' > Instagram </a>
+            <a href= 'https://teclabianos-front.vercel.app/' 
+            style={{ textDecoration: 'none', color: 'blue'}} target = '_BLANK' > Full Stack </a>
             </div>
+
+            <div> 
+            <a href= 'https://www.instagram.com/tomas.benitez13/' 
+            style={{ textDecoration: 'none', color: 'blue'}} target = '_BLANK' > Instagram </a>
+            </div>
+            
             <div> 
             <a href= 'https://www.facebook.com/profile.php?id=100008295554789' style={{ textDecoration: 'none', color: 'blue'}} target = '_BLANK' > Facebook </a>
             </div>
