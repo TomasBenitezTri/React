@@ -55,14 +55,19 @@ const HomePagina = (props) => {
 
     const [loading, setLoading] = useState(false);
     const [novedades, setNovedades] = useState([]);
+
     useEffect(() => {
+
     const cargarNovedades = async () => {
         setLoading(true);
+
         const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/novedades`);
         setNovedades(response.data);
+        
         setLoading(false);
     };
     cargarNovedades();
+    
     },[]);
 
     return(
@@ -87,7 +92,7 @@ const HomePagina = (props) => {
 
         <section className="He">
         {loading?(
-          <p></p>
+          <p>{/*cargando...*/}</p>
          ) : (
             novedades.map(item => <NovedadItem key={item.id}
                 title={item.titulo} 

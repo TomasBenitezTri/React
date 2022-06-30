@@ -6,6 +6,12 @@
     border: solid blue 1px;
     border-radius: 10px;
 }
+
+.fa-brands{
+    font-size: 30px;
+    margin: 5px;
+}
+
 @media only screen and (max-width: 379px) {
     .footer{
         font-size: 0.7em;
