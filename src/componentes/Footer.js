@@ -12,8 +12,6 @@ const Footer = (props) =>{
             style={{ textDecoration: 'none', color: 'blue'}} target = '_BLANK' > Full Stack </a>
             </div>
             
-
-
             <div> 
             <a href= 'https://www.linkedin.com/in/tomas-benitez-2a2a3118b/' 
             style={{ textDecoration: 'none', color: 'blue'}} target = '_BLANK' > <i class="fa-brands fa-linkedin"></i></a>
@@ -24,7 +22,7 @@ const Footer = (props) =>{
             style={{ textDecoration: 'none', color: 'blue'}} target = '_BLANK' > <i class="fa-brands fa-node"></i> </a>
             </div>
             <div> 
-            <a href= 'https://relatosdeportistas.000webhostapp.com/index.php' 
+            <a href= 'https://tomasbenitez.000webhostapp.com/' 
             style={{ textDecoration: 'none', color: 'blue'}} target = '_BLANK' > <i class="fa-brands fa-php"></i> </a>
             </div>
 
